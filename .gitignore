@@ -1,0 +1,30 @@
+# Environment and credentials
+.env
+.env.local
+*.env
+
+# Database connection files
+*.pgpass
+connection.txt
+credentials.txt
+db_config.*
+
+# Raw data exports (never commit)
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/exports/
+
+# DBeaver workspace files
+.dbeaver/
+*.dbs
+*.dbp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
